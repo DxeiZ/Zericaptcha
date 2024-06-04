@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+#captcha-grid img {
+    border: 2px solid transparent;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: all 0.1s;
+}
+
+.card {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container {
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.card-title {
+    font-size: 16px;
+    background-color: deepskyblue;
+    padding: 13px;
+    color: aliceblue;
+    border-radius: 3px;
+    margin: 5px;
+    margin-bottom: 10px;
+}
+
+.car-footer {
+    border-top: 1px solid gainsboro;
+    padding: 5px;
+    padding-left: 15px;
+    padding-top: 5px;
+    color: aliceblue;
+    border-radius: 3px;
+    margin: 5px;
+    margin-top: 10px;
+}
+
+#submit-button {
+    border: 1px solid deepskyblue;
+    padding: 5px 15px;
+    border-radius: 3px;
+    background-color: deepskyblue;
+    color: aliceblue;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+#fooRel svg {
+    color: deepskyblue;
+    cursor: pointer;
+}
+
+.selected {
+    border: 3px solid deepskyblue !important;
+    transform: scale(.8);
+}
+
+.recaptcha-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #dcdcdc;
+    padding: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.card-subtitle {
+    color: #a1e0ff;
+}
